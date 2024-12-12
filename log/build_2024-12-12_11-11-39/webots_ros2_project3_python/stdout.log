@@ -1,0 +1,44 @@
+running egg_info
+creating ../build/webots_ros2_project3_python/webots_ros2_project3_python.egg-info
+writing ../build/webots_ros2_project3_python/webots_ros2_project3_python.egg-info/PKG-INFO
+writing dependency_links to ../build/webots_ros2_project3_python/webots_ros2_project3_python.egg-info/dependency_links.txt
+writing entry points to ../build/webots_ros2_project3_python/webots_ros2_project3_python.egg-info/entry_points.txt
+writing requirements to ../build/webots_ros2_project3_python/webots_ros2_project3_python.egg-info/requires.txt
+writing top-level names to ../build/webots_ros2_project3_python/webots_ros2_project3_python.egg-info/top_level.txt
+writing manifest file '../build/webots_ros2_project3_python/webots_ros2_project3_python.egg-info/SOURCES.txt'
+reading manifest file '../build/webots_ros2_project3_python/webots_ros2_project3_python.egg-info/SOURCES.txt'
+writing manifest file '../build/webots_ros2_project3_python/webots_ros2_project3_python.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ahankins/git/cs560_project3/build/webots_ros2_project3_python/build
+creating /home/ahankins/git/cs560_project3/build/webots_ros2_project3_python/build/lib
+creating /home/ahankins/git/cs560_project3/build/webots_ros2_project3_python/build/lib/webots_ros2_project3_python
+copying webots_ros2_project3_python/__init__.py -> /home/ahankins/git/cs560_project3/build/webots_ros2_project3_python/build/lib/webots_ros2_project3_python
+copying webots_ros2_project3_python/webots_ros2_project3_python.py -> /home/ahankins/git/cs560_project3/build/webots_ros2_project3_python/build/lib/webots_ros2_project3_python
+running install
+running install_lib
+creating /home/ahankins/git/cs560_project3/install/webots_ros2_project3_python/lib/python3.10/site-packages/webots_ros2_project3_python
+copying /home/ahankins/git/cs560_project3/build/webots_ros2_project3_python/build/lib/webots_ros2_project3_python/__init__.py -> /home/ahankins/git/cs560_project3/install/webots_ros2_project3_python/lib/python3.10/site-packages/webots_ros2_project3_python
+copying /home/ahankins/git/cs560_project3/build/webots_ros2_project3_python/build/lib/webots_ros2_project3_python/webots_ros2_project3_python.py -> /home/ahankins/git/cs560_project3/install/webots_ros2_project3_python/lib/python3.10/site-packages/webots_ros2_project3_python
+byte-compiling /home/ahankins/git/cs560_project3/install/webots_ros2_project3_python/lib/python3.10/site-packages/webots_ros2_project3_python/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ahankins/git/cs560_project3/install/webots_ros2_project3_python/lib/python3.10/site-packages/webots_ros2_project3_python/webots_ros2_project3_python.py to webots_ros2_project3_python.cpython-310.pyc
+running install_data
+creating /home/ahankins/git/cs560_project3/install/webots_ros2_project3_python/share/ament_index
+creating /home/ahankins/git/cs560_project3/install/webots_ros2_project3_python/share/ament_index/resource_index
+creating /home/ahankins/git/cs560_project3/install/webots_ros2_project3_python/share/ament_index/resource_index/packages
+copying resource/webots_ros2_project3_python -> /home/ahankins/git/cs560_project3/install/webots_ros2_project3_python/share/ament_index/resource_index/packages
+creating /home/ahankins/git/cs560_project3/install/webots_ros2_project3_python/share/webots_ros2_project3_python/launch
+copying launch/f23_robotics_1_launch.py -> /home/ahankins/git/cs560_project3/install/webots_ros2_project3_python/share/webots_ros2_project3_python/launch
+creating /home/ahankins/git/cs560_project3/install/webots_ros2_project3_python/share/webots_ros2_project3_python/worlds
+copying worlds/f23_robotics_1.wbt -> /home/ahankins/git/cs560_project3/install/webots_ros2_project3_python/share/webots_ros2_project3_python/worlds
+copying worlds/maze1_smallest.wbt -> /home/ahankins/git/cs560_project3/install/webots_ros2_project3_python/share/webots_ros2_project3_python/worlds
+copying worlds/maze.wbt -> /home/ahankins/git/cs560_project3/install/webots_ros2_project3_python/share/webots_ros2_project3_python/worlds
+copying package.xml -> /home/ahankins/git/cs560_project3/install/webots_ros2_project3_python/share/webots_ros2_project3_python
+creating /home/ahankins/git/cs560_project3/install/webots_ros2_project3_python/share/webots_ros2_project3_python/resource
+copying resource/turtlebot_webots.urdf -> /home/ahankins/git/cs560_project3/install/webots_ros2_project3_python/share/webots_ros2_project3_python/resource
+copying resource/ros2control.yml -> /home/ahankins/git/cs560_project3/install/webots_ros2_project3_python/share/webots_ros2_project3_python/resource
+running install_egg_info
+Copying ../build/webots_ros2_project3_python/webots_ros2_project3_python.egg-info to /home/ahankins/git/cs560_project3/install/webots_ros2_project3_python/lib/python3.10/site-packages/webots_ros2_project3_python-0.0.0-py3.10.egg-info
+running install_scripts
+Installing webots_ros2_project3_python script to /home/ahankins/git/cs560_project3/install/webots_ros2_project3_python/lib/webots_ros2_project3_python
+writing list of installed files to '/home/ahankins/git/cs560_project3/build/webots_ros2_project3_python/install.log'
