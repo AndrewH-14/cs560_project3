@@ -1,17 +1,31 @@
-# Repository for UA CS460/560 - Fall 2024
+# CS 560 Project 3
 
-**Links to ROS resources**
+## Execution Instructions
 
-([Short video overview](
-https://vimeo.com/639236696))
+To run the the `webots_ros2_project3_python` controller and few steps must be taken which are detailed below.
 
+### Step 1: Build the package
+```
+cd cs560_project3/
+colcon build
+```
 
-Tutorials to complete: 
+### Step 2: Launch the environment
+```
+source install/setup.bash
+ros2 launch webots_ros2_project3_python f23_robotics_1_launch.py
+```
 
-1. ([CLI Tools Tutorial](https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools.html))
-2. ([Beginner Client Tutorial](https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries.html))
+### Step 3: Run the controller
+```
+ros2 launch webots_ros2_project3_python f23_robotics_1_launch.py
+```
 
+### Step 4 (Optional): Run the cartographer
+```
+ros2 launch turtlebot3_cartographer cartographer.launch.py
+```
 
-***Homework Assignment 1***
+## Test Runs
 
-[Webots/ROS2/Heuristic Search](./Homework1/Assignment.md)
+Additional information regarding the test rusn can be located in the `map_runs/small_maze` and `maps_runs/large_maze` `README.md` files.
